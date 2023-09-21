@@ -1,0 +1,21 @@
+.container{
+    margin-left: 50px;
+    padding: 10px;
+}
+.skills{
+    box-sizing: border-box;
+    display: inline-block;
+}
+.card{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 10px solid aqua;
+    margin:10px;
+    width: 300px;
+}
+.skilld{
+    background-color: aquamarine;
+    margin-left: 10px;
+    width: 25%;
+}

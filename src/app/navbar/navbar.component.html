@@ -1,0 +1,28 @@
+<!-- <div class="navbar navbar-fixed-top" role="navigation">
+<img width="40" alt="Display Picture" src="assets\dp.jfif" class="dp"/>
+<span>Sugam</span>
+<div class="menu">
+    <a href="#">HOME</a>
+    <a href="#">ABOUT ME</a>
+    <a href="#">PROJECTS</a>
+    <a href="#">CONTACT</a>
+</div>
+</div> -->
+<nav class="navbar navbar-expand-lg bg-info">
+  <div class="container-fluid">
+      <a [routerLinkActive]="'active'" routerLink="Home" class="navbar-brand">Sugam</a>
+      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto">
+              <a [routerLinkActive]="'active'" routerLink="About" class="nav-item nav-link">About</a>
+              <a [routerLinkActive]="'active'" routerLink="Education" class="nav-item nav-link">Education</a>
+              <a [routerLinkActive]="'active'" routerLink="Skills" class="nav-item nav-link">Skills</a>
+              <a [routerLinkActive]="'active'" routerLink="Work" class="nav-item nav-link">Work Experience</a>
+              <a [routerLinkActive]="'active'" routerLink="pp" class="nav-item nav-link">Projects</a>
+              <a [routerLinkActive]="'active'" routerLink="Contact" class="nav-item nav-link">Contact</a>
+          </div>
+      </div>
+  </div>
+</nav>

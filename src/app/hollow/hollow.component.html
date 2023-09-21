@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="skilld"><h4>Skills</h4></div>
+    <div class="skills" *ngFor="let skill of skillsData">
+        <div class="card">
+            <div class="name">{{skill.skill}}</div>
+            <div class="progress">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: {{skill.progress}};" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">{{skill.progress}}</div>
+              </div>
+        </div>
+    </div>
+</div>

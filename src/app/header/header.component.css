@@ -1,0 +1,44 @@
+/* .mainDIV{
+    position:relative;
+    background-image:url("../../assets/galaxy.jpg");
+    width:100%;
+    height: 450px;
+    min-width:315px;
+    color: white;
+}
+.middleDIV{
+    height:50px;
+    width:50%;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 0;
+}
+.rightDIV{
+    position:absolute;
+    right: 100px;
+    height:50px;
+    width:50%;
+    text-align: center;
+}
+.myimg{
+    height: auto;
+    border: 10px solid;
+    width: 50%;
+    margin-top: 80px;
+}
+p{
+    position:absolute;
+    left:100px;
+    height:50px;
+    width:70%;
+    text-align: center;
+    font-size: 100%;
+}
+h1{
+    text-size-adjust: auto;
+} */
+
+.carousel-item{
+    height: 465px;
+  }
+

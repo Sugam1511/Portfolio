@@ -1,0 +1,49 @@
+
+.container{
+  margin: 10px 0px;
+  padding: 10px 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  text-align: center;
+}
+.course-container{
+  display: inline-flex;
+}
+
+.course-card{
+  width:220px;
+  height: 350px;
+  margin: 20px 30px;
+  background-color: #e5f5f5;
+  border-radius: 15px;
+}
+.course-name{
+  text-align: center;
+}
+.course-description{
+  margin: 10px 0px;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+.details{
+  display: flex;
+  margin: 10px 0px;
+}
+.course-type{
+  width:50%;
+  font-weight: bold;
+  text-align: center;
+}
+.course-buttons{
+  display: flex;
+}
+.btn{
+  width: 140px;
+  height: 30px;
+  border: none;
+}
+.btn-show{
+  margin-left: 0;
+  background-color: #ABEBC6;
+}
